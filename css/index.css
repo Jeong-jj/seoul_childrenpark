@@ -1,0 +1,173 @@
+/* Header */
+#header {position: relative; border-bottom: 3px solid #008ad2;
+    box-shadow: 0 6px 6px -5px #008ad2;}
+
+#nav {display: flex; justify-content: space-between; align-items: center;}
+
+#nav .siteMap .siteBtn {display: flex; align-items: center; cursor: pointer;}
+#nav .siteMap .siteBtn a {font-size: 25px; color: #69737a;}
+#nav .siteMap .siteBtn a i {margin-left: 10px;}
+#nav .siteMap .siteBtn img {display: block; width: 120px; margin: 10px 15px 10px 35px;}
+
+#nav .siteMap .siteList {position: absolute; top: 100%; left: 4%; z-index: 999999; background: #fff; border-radius: 0 0 10px 10px; display: none;}
+#nav .siteMap .siteList li {display: block; margin: 10px 15px 20px; padding: 20px 35px; border-bottom: 1px solid #999; font-size: 20px;}
+#nav .siteMap .siteList li:nth-child(1) {border-top: 1px solid #000;}
+
+#nav .ctLogo {display: block; width: 250px; padding: 15px 0 10px; margin-left: 130px;}
+
+#nav .rtBox {display: flex; align-items: center;}
+
+#nav .rtBox .dust {margin-right: 15px; z-index: 9999999;}
+#nav .rtBox .dust a {padding: 15px; background: #59973c;
+    font-size: 20px; color: #fff; border-radius: 10px;}
+
+#nav .membership {display: flex; margin: 10px 20px;}
+#nav .membership li:nth-child(1) {margin-right: 20px;}
+#nav .membership li:nth-child(2) {position: relative;}
+#nav .membership li a {display: block; padding: 20px 10px; font-size: 25px;}
+#nav .membership li+li::before {content: ''; width: 1px; height: 27px; background: #000; position: absolute; top: 48%; left: -9%; transform: translateY(-50%);}
+
+
+/* part1 */
+#part1 {position: relative; width: 100vw; height: 685px; background: #f5f2cc; border-bottom: 3px solid #008ad2; box-shadow: 0 6px 6px -9px #008ad2;}
+
+#part1 .back {width: 100%; height: 55%; position: absolute; bottom: 0;
+    background-color: #b3d449; z-index: 2;}
+
+#part1 .trees {z-index: 3; position: absolute;}
+
+#part1 .leaf1 {width: 550px; height: 300px; top: 0; left: 0; transform: scaleY(-1);}
+#part1 .leaf2 {width: 400px; top: 10%; left: -130px; transform: rotate(70deg);}
+
+#part1 .palm1 {width: 470px; top: -5%; right: 0; transform: rotate(30deg) scale(-1); z-index: 999;}
+#part1 .palm2 {width: 320px; top:0; right: 0;}
+
+#part1 .palm-grass1 {width: 350px; bottom: -1%; left: -80px;}
+#part1 .palm-tree1 {width: 250px; height: 450px; bottom: 0; left: 0;}
+
+#part1 .palm-tree2 {width: 280px; height: 450px; bottom: 0; right: 0; transform: scaleX(-1);}
+#part1 .palm-grass2 {width: 350px; bottom: -1%; right: -80px; transform: scaleX(-1);}
+
+
+
+#part1 h1 {position: absolute; top: 5%; left: 50%;
+    transform: translateX(-50%); z-index: 99999;}
+#part1 h1 .shadow {height: 50%; opacity: .2; transform: scaleY(-1); position: absolute; top: 97%; left: 0; z-index: -1;}
+#part1 .tit {position: absolute; width: 100%;
+    top: 80%; left: 50%; transform: translateX(-50%);
+    font-size: 70px; color: #fff; text-align: center;
+}
+
+#part1 .depth1 li {display: block; z-index: 99;}
+#part1 .depth1 li img {width: 300px; display: block; z-index: -1;}
+#part1 .depth1 .li2 img {width: 400px;}
+#part1 .depth1 li p {
+    font-size: 30px; font-family: 'Jua', sans-serif;
+    color: #fff; padding: 20px 40px;
+    z-index: 99;}
+
+#part1 .depth1 {display: block; width: inherit; height: inherit; position: relative;}
+#part1 .depth1 .li1 {position: absolute; top: 57%; left: 18%;}
+#part1 .depth1 .li2 {position: absolute; top: 54%; right: 15%;}
+#part1 .depth1 .li3 {position: absolute; bottom: 12%; left: 28%;}
+#part1 .depth1 .li4 {position: absolute; bottom: 12%; right: 28%;}
+
+#part1 .depth1 li a {position: relative; display: block;}
+#part1 .depth1 li .roundPlate {
+    width: 220px; height: 80px; border-radius: 50%; background: #59973c;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+    z-index: -2;
+}
+
+#part1 .depth1 .li1 .animal1 {position: absolute; bottom: 50%; left: 50%; transform: translateX(-50%)}
+#part1 .depth1 .li2 .animal2 {position: absolute; bottom: 50%; left: -55%; transform: scaleX(-1) ;}
+#part1 .depth1 .li3 .animal3 {position: absolute; bottom: 50%; right: -40%;}
+#part1 .depth1 .li4 .animal4 {position: absolute; bottom: 50%; right: -10%;}
+
+
+/* part2 */
+#part2 {width: 100vw;}
+#part2 h2 {font-size: 30px;}
+#section {padding: 20px 30px 30px; display: flex;}
+
+
+#section .parkMap {margin: 15px 20px 20px; flex-grow: 1; width: 50%;}
+#section .parkMap h2 {display: block; margin-bottom: 20px;}
+#section .parkMap .mapImg {margin-top: 10px; padding: 15px;
+    border: 1px solid #ddd;}
+
+
+#section .info {flex-grow: 1; width: 50%; margin: 20px;}
+.slideOuter .slideInner {margin: 50px 15px; padding: 0 30px;}
+.slideOuter .slideInner h3 {text-align: center; display: block; margin: 5px;}
+.slideOuter .slide {
+    opacity: .5; transform: scale(0.7);
+    transition: all .5s; cursor: pointer;}
+.slideOuter .slide.slick-center {transform: scale(1); opacity: 1;}
+
+.slideOuter button.slick-arrow {border: none; font-size: 60px; color: #59973c; z-index: 999; cursor: pointer;}
+.slideOuter button.slick-prev {position: absolute; top: 50%; right: 100%; transform: translateY(-50%);}
+.slideOuter button.slick-next {position: absolute; top: 50%; left: 100%; transform: translateY(-50%);}
+
+
+.service {display: flex; margin-top: 20px;}
+.service > div {flex-grow: 1; border-radius: 50px;}
+.service a {display: block; margin: 0 5px; padding: 30px;
+    color: #fff; text-align: center; font-size: 30px;
+}
+.service a i {padding-right: 10px;}
+.service .findMissing a {background: #b3d449;}
+.service .penalty a {background: #f58b01;}
+
+/* footer */
+#footer {border-top: 1px solid #008ad2; display: flex; box-shadow: 0 6px 6px 5px #008ad2;}
+
+.footLt {width: 170px; justify-content: center; align-items: center;}
+.footLt a {display: block; padding: 30px;}
+
+.footRt {padding: 20px 20px;}
+.footRt .footLink {display: flex; margin-bottom: 20px;}
+.footRt .footLink li {margin-right: 20px; color: #555; font-size: 22px;}
+
+.footRt .address {border-top: 1px solid #999; font-size: 20px; padding: 10px 650px 10px 0;}
+.footRt .address p:nth-child(1) {font-size: 23px; padding-bottom: 10px;}
+.footRt .address p:nth-child(2) {color: #999;}
+
+
+/* 클릭시 확대 */
+    /* 공원지도 */
+.mMap {position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 9999999;}
+.mMap .bigMap {width: 70%; padding: 15px; border: 1px solid #ddd;
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%,-50%);}
+
+.mMap .mapbtn {position: absolute; top: 20px; right: 30px;
+    font-size: 50px; color: #555; cursor: pointer;}
+
+    /* 편의시설 */
+.mSlide {position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 9999999;}
+.mSlide .bigSlide {width: 70%; padding: 15px; border: 1px solid #000;
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mSlide .bigSlide .innerBox {
+    position: relative;
+    padding: 5px;
+    background: #fff; border: 1px solid #000;
+    display: flex; justify-content: center; align-items: center;}
+
+.mSlide .bigSlide .innerBox > div {margin: 20px;}
+.mSlide .bigSlide img {width: 200px; flex-grow: 1;}
+.mSlide .bigSlide .explain {flex-grow: 3;}
+.mSlide .bigSlide .explain h3 {display: block; margin-bottom: 15px; font-size: 25px;}
+.mSlide .bigSlide .explain h3 .alert {color: red;}
+.mSlide .bigSlide .explain p {font-size: 20px; margin-bottom: 10px;}
+
+.mSlide .slidebtn {position: absolute; top: 5px; right: 5px;
+    font-size: 40px; color: #555; cursor: pointer;}
+
+
